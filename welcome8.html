@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Hello, hello...</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+	</head>
+
+	<body>
+		<div class="bg">
+
+				<div id = "ramka" >
+				<div class="teksty2">
+				<p class="tekst">Jesteśmy już prawie na finiszu, ale czas na trochę matematyki. Rozwiąż równanie:</p>
+
+				<p>{[(Liczba córek Ägira, opiekuna topielców)x(Liczba korzeni Yggdrasila) - (Suma liczby karłów stojących na rogach świata)]/(liczba drzwi w Walhalli)}x1000
+				</p>
+
+				<p>Odpowiedź podaj w zaokrągleniu do liczb całkowitych</p>
+				
+ 				
+				<form>
+                <input type="password" id="pswd">
+                <input type="button" value="Submit" onclick="checkPswd();" />
+           		</form>
+
+           		</div>
+
+				</div>
+
+
+		</div>
+
+		<script type="text/javascript">
+    		function checkPswd() {
+        		var confirmPassword = "admin";
+        		var password = document.getElementById("pswd").value;
+        
+        if (password == confirmPassword) {
+             window.location="welcome9.html";
+        }
+        else{
+            alert("You know nothing, John Snow, try again.");
+        }
+    }
+</script>
+	</body>
+
+</html>

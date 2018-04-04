@@ -1,0 +1,93 @@
+body, html {
+    height: 100%;
+    padding: 0px;
+    margin:0px;
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("photo.jpg");
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+    padding: 0px;
+    margin: 0px;
+}
+
+.napis{
+	font-family: 'Pacifico', cursive;
+	text-align: right;
+	font-size: 50px;
+	color: white;
+	}
+
+div{
+	padding: 5px;
+	margin: 5px;
+}
+
+p{
+	
+	color: white;
+	font-size: 20px;
+	z-index: 10;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+#ramka{
+
+	width: 33%;
+	position: fixed; 
+	top: 5%;
+	right: 30%;
+
+}
+
+.teksty{
+	background-color: #00000061;
+
+}
+
+.teksty2{
+	width: 33%;
+	position: fixed; 
+	top: 30%;
+	right: 30%;
+	background-color: #00000061;
+
+}
+
+.button{
+	padding: 10px;
+	border-color: white;
+	border-style: solid;
+	border-radius: 5px;
+	width: 100px;
+	border: 5px;
+	z-index: 10;
+	background-color: #00000061;
+	
+}
+
+.klik{
+
+	right: 50%;
+	color: white;
+	text-decoration: none;
+	font-family: 'Pacifico', cursive;
+	font-size: 40px;
+
+}
+img{
+	width: 100%;
+}
+.teksty5{
+	top:10%;
+}
